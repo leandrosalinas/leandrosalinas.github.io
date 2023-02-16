@@ -25,13 +25,6 @@
     padding-bottom: 1rem;
 }
 
-// #ultimocarousel {
-//     font-size: 300%;
-//     position: absolute;
-//     top: 50%;
-//     transform: translateY(-50%);
-// }
-
 .padding {
     padding-bottom: 2rem;
 }
@@ -90,17 +83,9 @@
     --bs-gradient: none;
 }
 
-
-
-
-// .card {
-//     transition: all 0.3s;
-// }
-// .card:hover {
-//     transform: scale(1.10);
-// }
-
-// .div col {
-// max-width: 400px;
-// max-height: 400px;
-// }
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    }

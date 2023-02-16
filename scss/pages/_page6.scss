@@ -1,0 +1,165 @@
+
+body {
+    background-color: #FEFDFD;
+    width: 100%;
+    height: 100%;
+}
+
+.form-area {
+    padding: 7%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+
+.left  {
+    background: #322144;
+    padding: 200px 93px;
+}
+
+.left h2 {
+color: #FEFDFD;
+font-weight: 700;
+font-size: 48px;
+}
+.left span {
+    font-weight: 100;
+}
+
+.right {
+    padding: 70px 100px;
+    position: relative;
+}
+
+.right  i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #FEFDFD;
+}
+
+.form-control {
+    border: 2px solid #252525;
+}
+
+.right button{
+    border: 4;
+    border-radius: 1rem;
+    border-color: #B1AEBB;
+    background: #B1AEBB;
+    width: 180px;
+    color: #FEFDFD;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:20px;
+    cursor: pointer;
+    
+}
+.right button:hover {
+    background:#3C2257 ;
+    border-color: #3C2257;
+
+}
+
+.right button:focus {
+    background:#3C2257 ;
+    border-color: #3C2257;
+
+}
+
+.right button:active {
+    background:#3C2257 ;
+    border-color: #3C2257;
+
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .left {
+        padding: 90px 15px;
+        text-align: center;
+    }
+    .left h2 {
+        font-size: 25px;
+    }
+    .right {
+        padding: 25px;
+    }
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+    .right button {
+        width: 150px;
+        pad: 12px 0;
+    }
+}
+
+// .form-area {
+//     padding-top: 5%;
+// }
+
+// .row.single-form {
+//     box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+//     background: #FEFDFD;
+// }
+
+// .left {
+//     background-color: #322144;
+//     padding: 200px 98px;
+// }
+// .left h2 {
+//     color: #FEFDFD;
+//     font-weight: 700;
+//     font-size: 48px;
+// }
+
+// .left h2 span {
+//     font-weight: 100;
+// }
+
+// .right {
+//     padding: 70px 100px;
+// position: relative;
+// }
+
+// .right i {
+//     position: absolute;
+//     font-size: 80px;
+//     left: -27px;
+//     top: 40%;
+//     color: #FEFDFD;
+// }
+
+// .form-control {
+//     border: 2px solid #252525;   
+// }
+
+// .right button {
+//     border: 4px;
+//     border-radius: 1rem;
+//     background-color: #B1AEBB;
+//     width: 180px;
+//     color: #FEFDFD;
+//     padding: 15px 0;
+//     display: inline-block;
+//     font-size: 16px;
+//     margin-top: 20px;
+//     cursor: pointer;
+// }
+
+// .right button:hover {
+//     background-color: #3C2257;
+// }
+

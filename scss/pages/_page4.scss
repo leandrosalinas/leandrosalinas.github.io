@@ -1,0 +1,93 @@
+.testimonial {
+    padding-bottom: 1rem;
+    position: absolute;
+}
+
+.intro-image {
+    width: 60%;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.intro-image img {
+    border-radius: 10px;
+}
+
+.intro-quote {
+    width: calc(100% - 4rem);
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+    background-color: white;
+    filter: drop-shadow(0 16px 24px rgba (0,0,0,0.7))
+    drop-shadow(0 6px 30px rgba (0,0,0,0.06))
+    drop-shadow(0 8px 10px rgba (0,0,0,.1));
+    border-radius: 10px;    
+}
+
+blockquote {
+margin: 1em 0;
+// line-height: 1.45em;
+position: relative;
+color: #383838;  
+padding-left: 4rem;
+padding-right: 2rem;
+}
+
+blockquote::before {
+    display: block;
+    padding-left: 1rem;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    color: #b2b2b2;
+}
+
+blockquote p::after {
+    content: "\201D";
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite::before {
+    content: "—";
+}
+
+@media (max-width:1199.98px) {
+    .testimonial {
+        max-width: 450px;
+        filter: drop-shadow(0 16px 24px rgba (0,0,0,0.7))
+        drop-shadow(0 6px 30px rgba (0,0,0,0.06))
+        drop-shadow(0 8px 10px rgba (0,0,0,.1));
+    }
+    .intro-image {
+        margin: 0;
+        width: initial;
+    }
+    .intro-image img {
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .intro-quote {
+        border-radius: 0;
+        position: initial;
+        width: initial;
+        padding: 1rem 0;
+        filter: initial;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    blockquote {
+        margin: 0;
+        padding-right: 2rem;
+    }
+}
+

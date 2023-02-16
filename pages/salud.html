@@ -4,81 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <meta name="keywords" content="vegano,veganismo,alimentacion,recetas,salud,deporte,entrenamientos,conciencia,animales,planeta">
-    <meta name="description"content="JAKARI es un ecosistema pensado para ayudar a la transición al veganismo, generar conciencia y formar una comunidad sana con el fin de unirse con el fin común de salvar a nuestro planeta">
+    <meta name="keywords" content="vegano,veganismo,alimentacion,recetas,salud,deporte,entrenamientos,consciencia,animales,planeta,ecosistema,ayuda,¿cómo ser vegano?,¿qué es el veganismo?, ayuno intermitente, bio decodificación, alimentación real, alimentación consciente">
+    <meta name="description"content="Jakari es un ecosistema con el objetivo de brindar una herramienta que facilite la transición al veganismo y hacia un estado de consciencia en la salud mental, física, nutricional ">
     <meta name="author" content="qu4tro">
     <meta name="copyright" content="JAKARI Inc.">
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
-    <link rel="icon" href="./assets/images/Logo v1 - copia.ico  ">
+    <link rel="icon" href="../assets/images/Logo v1 - copia.ico ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/de89abb0df.js" crossorigin="anonymous"></script>
     <title>JAKARI - Home</title>
 </head>
-<!-- comienzo fila de nav y logo -->
 <body>
-    <header class="container-fluid">
-        <!-- <div id="header" class="row">
-            <div class="col-2 bg-success h-auto">
-                <a class="navbar-brand" href="./index.html">
-                 <a class= "container--img" href="./index.html"><img src="./assets/images/Logo v1.png" alt="LOGO JAKARI BLANCO Y VIOLETA" title="logo jakari"></a> -->
-            <!-- </div> -->
-            <!-- <nav class="col-10 bg-warning h-auto">
-                <ul class="d-flex justify-content-between align-items-center h-100"> -->
-                <!-- enlace relativo busca pags dentro del mismo proyecto/directorio -->
-                <!-- con ./ mira para adentro de las pags con ../mira por fuera de las pags o sea index u otras carpetas -->
-                    <!-- <li><i class="fa-solid fa-house"></i><a href="./index.html">Home</a></li>
-                    <li><i class="fa-solid fa-feather-pointed"></i><a href="./pages/sobrejakari.html">Sobre Jakari</a></li>
-                    <li><i class="fa-solid fa-scale-balanced"></i><a href="./pages/fundamentos.html">Fundamentos</a></li>
-                    <li><i class="fa-solid fa-user-group"></i><a href="./pages/comunidad.html">Comunidad</a></li>
-                    <li><i class="fa-solid fa-brain"></i><a href="./pages/salud.html">Salud</a></li>
-                    <li><i class="fa-solid fa-utensils"></i><a href="./pages/cocinavegana.html">Cocina Vegana</a></li>
-                    <li><i class="fa-solid fa-phone"></i><a href="./pages/contacto.html">Contacto</a></li>
+        <!-- comienzo header y nav -->
+        <header class="container-fluid">
+          <!-- comienzo navbar -->
+          <nav class="navbar fixed-top  navbar-expand-lg p-3 nav__color">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggler navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="2rem" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                
+              </button>
+              <a class="navbar-brand" href="index.html">
+                <img src="../assets/images/Logo v1 - copia.ico" alt="Logo Jakari purple/white"
+                 tittle="Logo Jakari" width="48" height="48" class="d-inline-block align-text-top"></a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style= "font-family: Montserrat , sans-serif" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cocinavegana.html">Cocina Vegana</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./fundamentos.html">Fundamentos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./salud.html">Salud</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./comunidad.html">Comunidad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sobrejakari.html">Sobre Jakari</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
                 </ul>
-            </nav>    -->
-            <nav id="nav" class="col-12 navbar navbar-expand-lg bg-body-tertiary p-3">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <a class="navbar-brand" href="./index.html">
-                    <img src="/JAKARI/assets/images/Logo v1 - copia.ico" alt="Logo Jakari purple/white"
-                     tittle="Logo Jakari" width="48" height="48" class="d-inline-block align-text-top"></a>
-                     <span id="span" class="text-primary fs-2 fw-semibold">JAKARI</span></a>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./cocinavegana.html">Cocina Vegana</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./fundamentos.html">Fundamentos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./salud.html">Salud</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./comunidad.html">Comunidad</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./sobrejakari.html">Sobre Jakari</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input id="busqueda" class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-        </div>
-      </header>
+                <form class="d-flex" role="search">
+                  <input id="busqueda" class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search" style= "font-family: Montserrat , sans-serif">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header> 
+    </header>  
     <br>
     <br>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid inventore voluptates quasi praesentium optio officia?   </p>
